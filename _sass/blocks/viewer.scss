@@ -56,6 +56,15 @@
 	font-size: 0;
 	position: absolute;
 	white-space: nowrap;
+
+	img + img {
+		display: none;
+	}
+
+	&.-double img {
+		display: inline-block !important;
+		vertical-align: top;
+	}
 }
 
 .viewer_main {
